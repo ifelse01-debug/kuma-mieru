@@ -1,0 +1,46 @@
+{
+  "functions": [
+    {
+      "name": "home",
+      "path": "/",
+      "handler": "index.handler",
+      "runtime": "Nodejs18.15"
+    },
+    {
+      "name": "pageId",
+      "path": "/[pageId]",
+      "handler": "index.handler",
+      "runtime": "Nodejs18.15"
+    },
+    {
+      "name": "about",
+      "path": "/about",
+      "handler": "index.handler",
+      "runtime": "Nodejs18.15"
+    },
+    {
+      "name": "apiConfig",
+      "path": "/api/config",
+      "handler": "index.handler",
+      "runtime": "Nodejs18.15"
+    },
+    {
+      "name": "apiHealth",
+      "path": "/api/health",
+      "handler": "index.handler",
+      "runtime": "Nodejs18.15"
+    },
+    {
+      "name": "apiMonitor",
+      "path": "/api/monitor",
+      "handler": "index.handler",
+      "runtime": "Nodejs18.15"
+    },
+    {
+      "name": "monitorDetail",
+      "path": "/monitor/[id]",
+      "handler": "index.handler",
+      "runtime": "Nodejs18.15"
+    }
+  ]
+}
